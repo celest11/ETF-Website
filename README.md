@@ -1,9 +1,11 @@
-# Your Project's Title...
-Your project's description...
+# ETF Website
+Nippon ETF site on Edge Delivery Services with Universal Editor.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Dev preview: https://develop--ETF-Website--nipponorg.aem.page/
+- Stage preview: https://staging--ETF-Website--nipponorg.aem.page/
+- Production preview: https://main--ETF-Website--nipponorg.aem.page/
+- Production live: https://main--ETF-Website--nipponorg.aem.live/
 
 ## Documentation
 

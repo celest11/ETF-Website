@@ -1,0 +1,19 @@
+trigger:
+  - '*' # Triggers on push to any branch, matching `on: [push]`
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  # Checkout is done automatically in Azure Pipelines, so no explicit step is needed
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '20.x'
+    displayName: 'Use Node.js 20'
+
+  - script: npm ci
+    displayName: 'Install dependencies (npm ci)'
+
+  - script: npm run lint
+    displayName: 'Run lint'

@@ -1,0 +1,14 @@
+{
+  "mappings": [
+    "/content/nippon-eds/etf/:/",
+    "/content/nippon-eds/etf/configuration:/.helix/config.json",
+    "/content/nippon-eds/etf/placeholders:/placeholders.json",
+    "/content/nippon-eds/etf/redirects:/redirects.json",
+    "/content/nippon-eds/etf/headers:/headers.json",
+    "/content/nippon-eds/etf/metadata:/metadata.json",
+    "/content/nippon-eds/etf/block-list/library:/block-list/library.json"
+  ],
+  "includes": [
+    "/content/nippon-eds/etf/"
+  ]
+}
